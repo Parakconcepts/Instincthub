@@ -1,0 +1,29 @@
+p{
+    position:relative;
+    top: 30px;
+    /* bottom: -10px;
+    right: -40px; */
+}
+span{
+    position:relative;
+    bottom: -50px;
+    }
+div{
+    background-color: blueviolet;
+    box-sizing: border-box;
+}
+@media screen and (max-width:700px) {
+    div {
+        background-color: blue;
+        color: azure;
+    }
+}
+button{ box-sizing: border-box;
+    width: 100px;
+    position: relative;
+    bottom: -40px;
+}
+button:hover{
+    background-color: black;
+    transition:500ms;
+}

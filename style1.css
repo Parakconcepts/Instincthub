@@ -1,0 +1,28 @@
+html{
+    box-sizing: border-box;
+}
+*,
+*::after, 
+*::before {
+    box-sizing: inherit;
+}
+p {
+border: darkslategrey solid 3px;
+width: 400px;
+}
+
+h1 + p {
+    color: rgb(6, 12, 102);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+/* h1:hover {
+    cursor: crosshair;
+} */
+p:hover{
+    
+    color: darkred;
+}
+div::first-letter{
+    color: rgb(34, 6, 158);
+}
