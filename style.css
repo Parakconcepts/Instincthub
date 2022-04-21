@@ -1,0 +1,41 @@
+
+h3 {
+    color: blue;
+}
+p::first-line{
+    color: burlywood;
+    }
+p::before{
+    content: "NOTE THIS:";
+    color: crimson;
+}
+p::after{
+    content: "Noted";
+    color: yellow;
+    width: 150px;
+    height: 25px;
+    display: block;
+    background: darkblue;
+}
+/* * {
+    font-weight: bolder;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+
+#parag2{
+    color: rgb(20, 3, 20);
+    font-size:smaller;
+}
+.footer {
+    color: black;
+    font-size: x-small;
+    font-style: oblique;
+}
+.container p {
+    display: block;
+    height: 30px;
+    width: 400px;
+    background: burlywood;
+    border: solid 2px darkslategrey;
+}
