@@ -1,0 +1,66 @@
+html{
+
+}
+.navbar{
+    background: rgb(14, 164, 181);
+    width: 70%;
+    height: 40px;
+    padding: 15px 0px 0px 0px;
+    margin-bottom: 15px;
+    margin-left: 15%;
+    position: relative;
+    }
+    #titleName {
+        text-align: left;
+        font-weight: bolder;
+        font-size: larger;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(255, 255, 255);
+        margin-right: 35%;
+        margin-left: 20px;
+    }
+    #navitem {
+        margin-right: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(255,255,255);
+        font-weight: lighter;
+        font-variant: normal;
+    }
+.headbanner{
+    width: 70%;
+    height:400px;
+    text-align: center;
+    margin-left: 15%;
+}
+#perspics {
+    height: 80%;
+    border-radius: 50% 50% 50% 50%;
+}
+.banner{
+    display: flexbox;
+    width: 70%;
+    height:400px;
+    text-align: center;
+    margin-left: 15%;
+}
+.srvcbanner{
+    width: 70%;
+    height:400px;
+    text-align: center;
+    margin-left: 15%;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    background: rgb(255,255,255);
+    height: 60%;
+    color: white;
+    font-size: medium;
+    margin-left: 20%;
+    }
+li{
+    width: 160px;
+    background: black;
+    margin: 25px;
+    }

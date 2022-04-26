@@ -27,3 +27,25 @@ button:hover{
     background-color: black;
     transition:500ms;
 }
+.boxedin {
+    background-color: none;
+    background: none;
+    position: relative;
+    bottom: -60px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    border: 3px solid darkred;
+    width: 350px;
+    align-items: stretch;
+    height: 500px;
+
+}
+li{
+    width: 30px;
+    /* height: 30px; */
+    background: green;
+    margin: 5px;
+}
