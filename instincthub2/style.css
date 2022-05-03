@@ -102,7 +102,7 @@ html{ box-sizing: border-box;
     font-size: larger;
     font-variant-caps: titling-caps;
     color: rgb(14, 164, 181);
-    margin-left: -480px;
+    margin-left:-480px;
      }
 ul {
     list-style-type: none;
