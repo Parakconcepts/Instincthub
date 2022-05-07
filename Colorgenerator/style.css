@@ -32,6 +32,10 @@ input[type="button"]{
     color: #eee;
     font-weight: 600;
 }
+#srchBtn {
+    background-color: #00848f;
+
+}
 .result{
     margin-top: 40px;
     display: flex;
