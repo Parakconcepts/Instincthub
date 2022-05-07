@@ -20,5 +20,13 @@ const displayColor = (color) =>{
     hexValue.innerHTML = name_value[0];
 
 }
+// Button Events
+
+srchBtn.addEventListener("click", function(){
+    colorGenerator(colorInput.value);
+})
+genBtn.addEventListener("click", function(){
+    colorGenerator();
+})
 
 colorGenerator();
